@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:background="@null"
+            android:id="@+id/sousuo_edit"/>
+        <Button
+            android:id="@+id/sousuo_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="搜索"/>
+    </LinearLayout>
+    <com.bwie.xiaqin.yuekao1121lx.sousuobuju.LiuShi
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/liushi">
+
+    </com.bwie.xiaqin.yuekao1121lx.sousuobuju.LiuShi>
+</LinearLayout>
+
